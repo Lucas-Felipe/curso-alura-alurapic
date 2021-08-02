@@ -1,0 +1,6 @@
+<div class="text-center" *ngIf="hasMore;else naotem">
+  <button class="btn btn-primary">Tem mais!</button>
+</div>
+<ng-template #naotem >
+<p class="text-center text-muted">Num tem mais!</p>
+</ng-template>
